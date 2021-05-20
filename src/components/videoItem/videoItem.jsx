@@ -5,7 +5,7 @@ const videoItem = ({video : {snippet}}) => {
     return (
         <li className={styles.container}>
             <div className={styles.videoitem}>
-                <img clssName={styles.thumbnail} src={snippet.thumbnails.medium.url} alt="thumbnail"></img>
+                <img className={styles.thumbnail} src={snippet.thumbnails.medium.url} alt="thumbnail"></img>
 
                 <div className={styles.metadata}>
                     <p className={styles.title}> {snippet.title} </p> 

@@ -1,12 +1,13 @@
 import React from 'react';
 import './navbar.css'
+import logo from './lotus_l.png'
 
 export default function navbar() {
     return(
         <nav className="navbar">
-            <div>
-                <i className="navbar-logo fas fa-leaf"></i>
-                <span className="navbar-title">Zen</span>
+            <div className="navbar-left">
+                <img className="navbar-logo" src={logo} alt="logo"/>
+                <span className="navbar-title">Zen Corner</span>
             </div>
             
             <form method="get" className="search-form">
